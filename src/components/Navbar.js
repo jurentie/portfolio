@@ -2,22 +2,21 @@ import './Navbar.css'
 
 import React from 'react'
 
-import logo from '../images/JR.logo.png'
+import logo from '../images/JR-logo-transparent.png'
 
 function Navbar() {
 
     return (
         <div className="Navbar">
             <div className="left">
-                <img src={logo}></img>
+                <img src={logo} alt="logo"></img>
             </div>
             <div className="right">
-                <p>Home</p>
-                <p>Bio</p>
-                <p>Projects</p>
-                <p>Contact</p>
+                <p className="menuItem">About</p>
+                <p className="menuItem">Experience</p>
+                <p className="menuItem">Projects</p>
+                <p className="menuItem">Contact</p>
             </div>
-            
         </div>
     )
 }

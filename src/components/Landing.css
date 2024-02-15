@@ -1,0 +1,74 @@
+.Landing {
+    height:88vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+
+.profile-picture, .bio {
+    padding: 20px;
+}
+
+.profile-picture {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 40%;
+}
+
+.profile-picture img {
+    max-height: 80%;
+}
+
+.bio {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text {
+    margin-bottom:32px;
+}
+
+.text p{
+    margin:0;
+}
+
+.hi {
+    font-size: 2rem;
+    padding-left: 2px;
+}
+
+.name-sentence {
+    font-size: 3rem;
+}
+
+#name {
+    font-weight: bold;
+    color: rgb(20, 155, 176);
+}
+
+.description {
+    padding-left: 4px;
+}
+
+.stack{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+
+.stack img {
+    max-height:40px;
+    display: inline-block;
+    padding-right: 4px;
+}
