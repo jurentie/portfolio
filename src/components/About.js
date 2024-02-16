@@ -1,15 +1,23 @@
 import './About.css'
 import React from 'react'
-import AnimatedPage from '../AnimatedPage'
 import headshot from '../images/headshot_2.png'
 
+import useWindowDimensions from './utility/UseWindowDimensions'
+
 function About () {
+    const { width} = useWindowDimensions();
+
     return (
         // <AnimatedPage>
             <div id="about" className="About">
                 <div className="container">
                     <div className="content">
                         <h1>About Me</h1>
+                        {width < 992 && (
+                            <div className="headshot">
+                                <img src={headshot} alt="headshot"></img>
+                            </div>
+                        )}
                         <p>
                             Hi there! I'm Justin, a full-stack developer with a passion for front-end design, and a love for blending artistry and technology. 
                             Since I was young, I've always been drawn to the world of arts and creativity, finding joy in expressing myself 
@@ -32,7 +40,6 @@ function About () {
                             in the kitchen, or crafting something new to wear at my sewing machine. I believe that creativity knows no bounds, and 
                             I'm passionate about bringing that energy into every project I undertake.
                         </p>
-                        <p>Let's collaborate and turn your vision into reality. Together, we can build something extraordinary.</p>
                         <br />
                         <div className="experience">
                             <h2>Experience</h2>
@@ -49,9 +56,11 @@ function About () {
                             <p>Java / Python / Scala / HTML / CSS / JavaScript / React / Coldfusion / Springboot / MySQL / Postgres </p>
                         </div>
                     </div>
-                    <div className="headshot">
-                        <img src={headshot} alt="headshot"></img>
-                    </div>
+                    {width > 992 && (
+                        <div className="headshot">
+                        <   img src={headshot} alt="headshot"></img>
+                        </div>
+                    )}         
                 </div>
             </div>
         // {/* </AnimatedPage> */}
