@@ -52,4 +52,8 @@
     .Contact h1 {
         font-size: 5rem;
     }
+
+    .Contact .container {
+        max-width: 90%;
+    }
 }
