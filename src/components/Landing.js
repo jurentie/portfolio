@@ -23,6 +23,7 @@ function Landing () {
                                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="css3"/>
                                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="javaScript"/>
                                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="react"/>
+                                <img src="https://www.adobe.com/content/dam/cc/us/en/products/coldfusion/coldfusion-builder/home/cf_logo_svg.svg" alt="Coldfusion" style={{maxHeight:"50px", paddingTop: "4px"}} />
                                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="java"/>
                                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scala/scala-original.svg" alt="scala"/>
                         </div>
