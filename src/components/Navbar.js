@@ -8,25 +8,23 @@ function Navbar() {
     return (
         <div className="Navbar">
             <div className="left">
-                <Link className="logo" to="/portfolio">
-                    <img src={logo} alt="logo"></img>
-                </Link>
+                    <a href="#landing"><img className="logo" src={logo} alt="logo"></img></a>
             </div>
             <div className="right">
                 <div className="menuItem">
-                    <Link className="navLink" to="/about">
+                    <a className="navLink" href="#about">
                         About
-                    </Link>
+                    </a>
                 </div>
                 <div className="menuItem">
-                    <Link className="navLink" to="/">
+                    <a className="navLink" href="#projects">
                         Projects
-                    </Link>
+                    </a>
                 </div>
                 <div className="menuItem">
-                    <Link className="navLink" to="/">
+                    <a className="navLink"  href="#contact">
                         Contact
-                    </Link>
+                    </a>
                 </div>
             </div>
 

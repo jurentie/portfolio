@@ -6,7 +6,7 @@ import headshot from '../images/headshot_2.png'
 function About () {
     return (
         // <AnimatedPage>
-            <div className="About">
+            <div id="about" className="About">
                 <div className="container">
                     <div className="content">
                         <h1>About Me</h1>
@@ -44,9 +44,10 @@ function About () {
                             <p>-2 years working with Python, Java, .Net, JavaScript, HTML, and CSS developing open source water data proessing tools and visualizations</p>
                             <p>-2 years working with Java and Springboot Framework developing API microservices</p>
                             <p>-3 years working with Java, Scala, JavaScript, React, and Coldfusion developing API microservices and various front-end UIs</p>
+                            <br /><br />
+                            <h2>Skills</h2>
+                            <p>Java / Python / Scala / HTML / CSS / JavaScript / React / Coldfusion / Springboot / MySQL / Postgres </p>
                         </div>
-                        <h2>Skills</h2>
-                        <p>Java / Python / Scala / HTML / CSS / JavaScript / React / Coldfusion / Springboot / MySQL / Postgres </p>
                     </div>
                     <div className="headshot">
                         <img src={headshot} alt="headshot"></img>

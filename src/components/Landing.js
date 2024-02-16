@@ -6,7 +6,7 @@ import AnimatedPage from '../AnimatedPage'
 function Landing () {
     return (
         // <AnimatedPage>
-            <div className="Landing">
+            <div id="landing" className="Landing">
                 <div className="content">
                     <div className="profile-picture">
                         <img src={headshot} alt="headshot"></img>
