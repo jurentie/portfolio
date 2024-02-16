@@ -1,5 +1,6 @@
 import './About.css'
 import React from 'react'
+import { Spotify } from 'react-spotify-embed'
 import headshot from '../images/headshot_2.png'
 
 import useWindowDimensions from './utility/UseWindowDimensions'
@@ -54,6 +55,7 @@ function About () {
                             <br /><br />
                             <h2>Skills</h2>
                             <p>Java / Python / Scala / HTML / CSS / JavaScript / React / Coldfusion / Springboot / MySQL / Postgres </p>
+                            <br/>
                         </div>
                     </div>
                     {width > 992 && (
@@ -61,6 +63,12 @@ function About () {
                         <   img src={headshot} alt="headshot"></img>
                         </div>
                     )}         
+                </div>
+                <div className="spotify-playlist">
+                    <h2>My Favorite Playlists to Code to:</h2>
+                            <Spotify className="spotify" link="https://open.spotify.com/playlist/1YIe34rcmLjCYpY9wJoM2p?si=d8fe98abc8804af3" />
+                            <Spotify className="spotify" link="https://open.spotify.com/playlist/5M7xLCQTYJL0lbKIrUn3a4?si=0f0645a425f24c99" />
+                            <Spotify className="spotify" link="https://open.spotify.com/playlist/6Fcw3mV2jegHsnuMD8mCSo?si=80f7507e378c4464" />
                 </div>
             </div>
         // {/* </AnimatedPage> */}
