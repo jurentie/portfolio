@@ -21,8 +21,9 @@
 }
 
 .Card img {
-    max-width: 400px;
+    width: 400px;
     border-radius: 4%;
+    max-width:200%;
 }
 
 .Card .content {
@@ -50,7 +51,12 @@
         max-width:80%;
     }
 
+    .Card .content {
+        width:100%;
+    }
+
     .Card h2 {
         margin-top:10px;
     }
+
 }
