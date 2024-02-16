@@ -16,6 +16,7 @@ function App() {
         {/* <AnimatePresence mode="wait"> */}
           <Routes location={location} key={location.pathname}>
             <Route index element={<Landing />} />
+            <Route path="/portfolio" element={<Landing />} />
             <Route path="/about" element={<About />} />
           </Routes>
         {/* </AnimatePresence> */}
