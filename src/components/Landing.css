@@ -76,6 +76,10 @@
 }
 
 @media (max-width: 700px) {
+    .Landing {
+        padding-top: 50px;
+    }
+
     .Landing .content {
         flex-direction: column;
         align-items: center;
