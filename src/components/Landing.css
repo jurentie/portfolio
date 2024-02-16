@@ -5,7 +5,7 @@
     justify-content: center;
 }
 
-.content {
+.Landing .content {
     display: flex;
     flex-direction: row;
     width: 80%;
@@ -33,11 +33,11 @@
     justify-content: center;
 }
 
-.text {
+.Landing .text {
     margin-bottom:32px;
 }
 
-.text p{
+.Landing .text p{
     margin:0;
 }
 
@@ -52,10 +52,10 @@
 
 #name {
     font-weight: bold;
-    color: rgb(20, 155, 176);
+    color:springgreen;
 }
 
-.description {
+.Landing .description {
     padding-left: 4px;
 }
 

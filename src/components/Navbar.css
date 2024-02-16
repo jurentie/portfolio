@@ -19,7 +19,11 @@
     padding-left: 10%;
 }
 
-.left img {
+.logo {
+    height: 9vh;
+}
+
+.logo img {
     max-height: 100%;
 }
 
@@ -37,6 +41,12 @@
     font-weight: 200;
     cursor: pointer;
     margin-right:10px;
+}
+
+.navLink {
+    color:#FFFCEA;
+    text-decoration: none;
+    font-weight:400;
 }
 
 .menuItem:hover {

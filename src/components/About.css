@@ -1,0 +1,14 @@
+.About {
+    height:88vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.About .content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height:80%;
+    padding-right:20%;
+}

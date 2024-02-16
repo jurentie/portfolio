@@ -1,12 +1,14 @@
-body {
+html, body {
   margin: 0;
-  font-family: Roboto;
-  color:white;
+  font-family: "Roboto";
+  color:#FFFCEA;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('./images/background.jpg');
+  /* background-color: #ECE7E1; */
+  background-image: url('./images/background_dark.jpg');
   background-size: 100% 110%;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 code {
