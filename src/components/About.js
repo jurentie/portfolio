@@ -16,7 +16,7 @@ function About () {
                     </p>
                     <p>
                         Web development isn't just a career for me; it's a canvas where I can bring my ideas to life with code. 
-                        From crafting elegant user interfaces to imagining the way a I'd want a website to look, I thrive on the 
+                        From crafting elegant user interfaces to imagining the way I'd want a website to look, I thrive on the 
                         opportunity to create meaningful connections through captivating design and functionality.
                     </p>
                     <p>What excites me most about being a developer is the endless opportunity for growth and innovation. I'm 
