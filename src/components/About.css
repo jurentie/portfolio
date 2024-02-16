@@ -1,14 +1,35 @@
 .About {
-    height:88vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.About .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position:relative; */
+}
+
 .About .content {
     display: flex;
     flex-direction: column;
-    width: 50%;
-    height:80%;
-    padding-right:20%;
+    width:45%;
+    padding-top: 30px;
+    margin-bottom:100px;
+}
+
+.experience p {
+    margin: 0;
+}
+
+.About .headshot {
+    max-width:33%;
+    height:100%;
+    padding-top:30px;
+    /* position: absolute; */
+}
+
+.About .headshot img{
+    width: 100%;
 }
