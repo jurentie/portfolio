@@ -9,7 +9,7 @@ function About () {
                 <div className="content">
                     <h1>About Me</h1>
                     <p>
-                        Hi there! I'm Justin, a full-stack developer with a passion for front-end work, and a love for blending artistry and technology. 
+                        Hi there! I'm Justin, a full-stack developer with a passion for front-end design, and a love for blending artistry and technology. 
                         Since I was young, I've always been drawn to the world of arts and creativity, finding joy in expressing myself 
                         through various mediums. As I embarked on my journey in software engineering, I discovered a powerful intersection 
                         where my artistic inclinations could seamlessly merge with the digital realm through front-end development.
