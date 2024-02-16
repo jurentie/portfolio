@@ -82,6 +82,10 @@
         width:100%;
     }
 
+    .profile-picture {
+        width: 70%;
+    }
+
     .stack {
         width:80%;
         font-size: .7rem;

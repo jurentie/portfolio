@@ -54,6 +54,10 @@
         align-items: center;
     }
 
+    .About .headshot {
+        max-width: 60%;
+    }
+
     .stack {
         width:80%;
         font-size: .7rem;
