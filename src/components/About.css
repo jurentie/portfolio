@@ -4,6 +4,10 @@
     justify-content: center;
 }
 
+.About h1, h2 {
+    color:springgreen;
+}
+
 .About .container {
     display: flex;
     align-items: center;
