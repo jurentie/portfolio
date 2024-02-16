@@ -13,12 +13,14 @@ function App() {
   return (
       <>
         <Navbar />
+        <Landing />
+        <About />
         {/* <AnimatePresence mode="wait"> */}
-          <Routes location={location} key={location.pathname}>
+          {/* <Routes location={location} key={location.pathname}>
             <Route index element={<Landing />} />
             <Route path="/portfolio" element={<Landing />} />
             <Route path="/about" element={<About />} />
-          </Routes>
+          </Routes> */}
         {/* </AnimatePresence> */}
       </>
     )
