@@ -4,7 +4,11 @@
     justify-content: center;
 }
 
-.About h1, h2 {
+.About h1 {
+    font-size: 3rem;
+}
+
+.About h2 {
     color:springgreen;
 }
 

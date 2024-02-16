@@ -1,0 +1,46 @@
+.ContactForm {
+}
+
+.ContactForm form {
+    display: flex;
+    flex-direction: column;
+}
+
+.ContactForm textarea {
+    height:100px;
+    resize: none;
+}
+
+.ContactForm input[type="text"], input[type="email"] {
+    font-family: "Roboto";
+    font-size: .95rem;
+    padding: 5px 10px;
+    border-radius: 5px 5px;
+    border:none;
+}
+
+.ContactForm [type="submit"] {
+    background-color: springgreen;
+    border: none;
+    text-align: center;
+    color: black;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 2px;
+}
+
+.ContactForm textarea {
+    font-family: "Roboto";
+    font-size: .95rem;
+    padding: 5px 10px;
+    border-radius: 5px 5px;
+    border:none;
+}
+
+.ContactForm textarea:focus, input:focus {
+    outline:none;
+}
+
+.ContactForm label {
+    margin-bottom: 10px;
+}
