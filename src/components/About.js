@@ -4,6 +4,7 @@ import { Spotify } from 'react-spotify-embed'
 import { motion, useInView } from 'framer-motion'
 
 import useWindowDimensions from './utility/UseWindowDimensions'
+import NavButtonSelector from './utility/NavButtonSelector'
 
 import headshot from '../images/headshot_2.png'
 
@@ -15,11 +16,9 @@ function About () {
     useEffect(() => {
 
         if(isInView){
-            document.getElementById("about-button").style.color = "springgreen"
-            document.getElementById("projects-button").style.color = "#FFFCEA"
-            document.getElementById("contact-button").style.color = "#FFFCEA"
+            NavButtonSelector("about-button")
         }else{
-            document.getElementById("about-button").style.color = "#FFFCEA"
+            NavButtonSelector("reset")
         }
     }, [isInView])
 

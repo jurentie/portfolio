@@ -3,6 +3,8 @@ import React, {useEffect, useRef} from 'react'
 import Card from './utility/Card'
 import {motion, useInView} from 'framer-motion'
 
+import NavButtonSelector from './utility/NavButtonSelector'
+
 import projects from '../data/projects.json'
 
 function Projects()  {
@@ -11,9 +13,7 @@ function Projects()  {
 
     useEffect(() => {
         if(isInView){
-            document.getElementById("contact-button").style.color = "#FFFCEA"
-            document.getElementById("projects-button").style.color = "springgreen"
-            document.getElementById("about-button").style.color = "#FFFCEA"
+            NavButtonSelector("projects-button")
         }
     }, [isInView])
 

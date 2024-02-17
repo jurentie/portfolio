@@ -3,6 +3,7 @@ import React, {useEffect, useRef} from 'react'
 import { motion, useInView } from 'framer-motion'
 
 import { ContactForm } from './utility/ContactForm'
+import NavButtonSelector from './utility/NavButtonSelector'
 
 import github from '../images/github_logo.png'
 import linkedIn from '../images/linkedin_logo.png'
@@ -14,9 +15,7 @@ function Contact() {
 
     useEffect(() => {
         if(isInView){
-            document.getElementById("contact-button").style.color = "springgreen"
-            document.getElementById("projects-button").style.color = "#FFFCEA"
-            document.getElementById("about-button").style.color = "#FFFCEA"
+            NavButtonSelector("contact-button")
         }
     }, [isInView]) 
 
