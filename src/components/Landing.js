@@ -1,6 +1,6 @@
 import './Landing.css'
 import React from 'react'
-import { motion } from 'framer-motion'
+import { MotionConfig, motion } from 'framer-motion'
 
 import headshot from '../images/headshot-transparent.png'
 
@@ -14,9 +14,11 @@ function Landing () {
                     </div>
                     <div className="bio">
                         <div className="text">
-                            <motion.p transition={{delay: 3, duration:1}} initial={{y:-400, opacity: 0}} animate={{y: 0, opacity: 1}} className="hi-hidden">&nbsp;</motion.p>
-                            <motion.p transition={{delay: 3, duration:1}} initial={{y:-400, opacity: 0}} animate={{y: 0, opacity: 1}} className="hi">Hi, </motion.p>
-                            <motion.p transition={{delay: 3, duration:1}} initial={{y:-400, opacity: 0}} animate={{y: 0, opacity: 1}} className="name-sentence">My name is</motion.p>
+                            <MotionConfig transition={{delay: 3, duration:1}} >
+                                <motion.p initial={{y:-400, opacity: 0}} animate={{y: 0, opacity: 1}} className="hi-hidden">&nbsp;</motion.p>
+                                <motion.p initial={{y:-400, opacity: 0}} animate={{y: 0, opacity: 1}} className="hi">Hi, </motion.p>
+                                <motion.p initial={{y:-400, opacity: 0}} animate={{y: 0, opacity: 1}} className="name-sentence">My name is</motion.p>
+                            </MotionConfig>
                             <motion.p transition={{duration:2}} initial={{opacity: 0}} animate={{opacity: 1}} id="name">Justin Rentie</motion.p>
                             <motion.p transition={{delay: 3, duration:1}} initial={{y:-400, opacity: 0}} animate={{y: 0, opacity: 1}} className="description">I'm a full-stack developer with a passion for front-end design. </motion.p>
                         </div>
