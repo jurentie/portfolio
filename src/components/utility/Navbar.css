@@ -14,6 +14,7 @@
     position: fixed;
     width:100%;
     border-bottom: #FFFCEA 1px solid;
+    z-index: 1;
 }
 
 .page-title{
