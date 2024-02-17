@@ -10,7 +10,7 @@ function Landing () {
             <div id="landing" className="Landing">
                 <div className="content">
                     <div  className="profile-picture">
-                        <motion.img transition={{delay: 2, duration: .5}} initial={{ scale: 0 }} animate={{scale:1}} src={headshot} alt="headshot"></motion.img>
+                        <motion.img transition={{delay: 2, duration: .5, ease: "backInOut"}} initial={{ scale: 0 }} animate={{scale:1}} src={headshot} alt="headshot"></motion.img>
                     </div>
                     <div className="bio">
                         <div className="text">
