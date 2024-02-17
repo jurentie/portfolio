@@ -97,6 +97,10 @@
 
 @media (max-width: 700px) {
 
+    .Navbar {
+        height: 20px;
+    }
+
     .dropdown {
         display:flex;
         justify-content: center;
