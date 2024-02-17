@@ -3,6 +3,7 @@ import './App.css'
 // import { AnimatePresence } from 'framer-motion'
 
 import Navbar from './components/utility/Navbar'
+import ScrollBar from './components/utility/ScrollBar'
 import Landing from './components/Landing'
 import About from './components/About'
 import Projects from './components/Projects'
@@ -15,6 +16,7 @@ function App() {
   return (
       <>
         <Navbar />
+        <ScrollBar />
         <Landing />
         <About />
         <Projects />

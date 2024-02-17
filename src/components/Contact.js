@@ -19,7 +19,7 @@ function Contact() {
                     <ContactForm />
                 </motion.div>
             </div>
-            <motion.div transition={{delay: 2, duration:1, ease:"backInOut"}} initial={{y:-200, opacity: 0}} whileInView={{y: 0, opacity: 1}} viewport={{ once: true }} className="footer">
+            <motion.div transition={{delay: 1, duration:1, ease:"backInOut"}} initial={{y:-200, opacity: 0}} whileInView={{y: 0, opacity: 1}} viewport={{ once: true }} className="footer">
                 <div className="icons">
                     <a href="https://github.com/jurentie" target="_"><img src={github} alt="github"></img></a>
                     <a href="https://www.linkedin.com/in/jurentie/" target="_"><img src={linkedIn} alt="linkedin"></img></a>

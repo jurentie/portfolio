@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 function Card ({imgSource, title, description, link}) {
     return (
-        <motion.div transition={{delay: .5, duration:1, ease:"backInOut"}} initial={{x:-400, opacity: 0}} whileInView={{x: 0, opacity: 1}} viewport={{ once: true }} className="Card">
+        <motion.div transition={{delay: .5, duration:1, ease:"backInOut"}} initial={{x:-300, opacity: 0}} whileInView={{x: 0, opacity: 1}} viewport={{ once: true }} className="Card">
             <div className="image">
                 <img src={process.env.PUBLIC_URL + imgSource} alt={title}></img>
             </div>
