@@ -1,9 +1,10 @@
 import './Card.css'
 import React from 'react'
+import { motion } from 'framer-motion'
 
 function Card ({imgSource, title, description, link}) {
     return (
-        <div className="Card">
+        <motion.div transition={{delay: .5, duration:1, ease:"backInOut"}} initial={{x:-400, opacity: 0}} whileInView={{x: 0, opacity: 1}} viewport={{ once: true }} className="Card">
             <div className="image">
                 <img src={process.env.PUBLIC_URL + imgSource} alt={title}></img>
             </div>
@@ -14,7 +15,7 @@ function Card ({imgSource, title, description, link}) {
                     <button>view &rarr;</button>
                 </a>
             </div>
-        </div>
+        </motion.div>
     )
 }
 
