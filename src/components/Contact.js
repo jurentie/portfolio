@@ -16,11 +16,11 @@ function Contact() {
             </div>
             <div className="footer">
                 <div className="icons">
-                    <a href="https://github.com/jurentie" target="_"><img src={github}></img></a>
-                    <a href="https://www.linkedin.com/in/jurentie/" target="_"><img src={linkedIn}></img></a>
+                    <a href="https://github.com/jurentie" target="_"><img src={github} alt="github"></img></a>
+                    <a href="https://www.linkedin.com/in/jurentie/" target="_"><img src={linkedIn} alt="linkedin"></img></a>
                 </div>
                 <div className="copyright">
-                    <img src={copyright}></img>/2024
+                    <img src={copyright} alt="copyright"></img>/2024
                 </div>
             </div>
         </div>
