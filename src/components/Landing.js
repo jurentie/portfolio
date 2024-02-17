@@ -1,5 +1,7 @@
 import './Landing.css'
 import React from 'react'
+import { motion } from 'framer-motion'
+
 import headshot from '../images/headshot-transparent.png'
 
 function Landing () {
@@ -7,16 +9,18 @@ function Landing () {
         // <AnimatedPage>
             <div id="landing" className="Landing">
                 <div className="content">
-                    <div className="profile-picture">
-                        <img src={headshot} alt="headshot"></img>
+                    <div  className="profile-picture">
+                        <motion.img transition={{delay: 2, duration: .5}} initial={{ scale: 0 }} animate={{scale:1}} src={headshot} alt="headshot"></motion.img>
                     </div>
                     <div className="bio">
                         <div className="text">
-                            <p className="hi"> Hi, </p>
-                            <p className="name-sentence">My name is <span id="name">Justin Rentie</span>.</p>
-                            <p className="description">I'm a full-stack developer with a passion for front-end design. </p>
+                            <motion.p transition={{delay: 3, duration:1}} initial={{y:-400, opacity: 0}} animate={{y: 0, opacity: 1}} className="hi-hidden">&nbsp;</motion.p>
+                            <motion.p transition={{delay: 3, duration:1}} initial={{y:-400, opacity: 0}} animate={{y: 0, opacity: 1}} className="hi">Hi, </motion.p>
+                            <motion.p transition={{delay: 3, duration:1}} initial={{y:-400, opacity: 0}} animate={{y: 0, opacity: 1}} className="name-sentence">My name is</motion.p>
+                            <motion.p transition={{duration:2}} initial={{opacity: 0}} animate={{opacity: 1}} id="name">Justin Rentie</motion.p>
+                            <motion.p transition={{delay: 3, duration:1}} initial={{y:-400, opacity: 0}} animate={{y: 0, opacity: 1}} className="description">I'm a full-stack developer with a passion for front-end design. </motion.p>
                         </div>
-                        <div className="stack">
+                        <motion.div transition={{delay: 3, duration:1}} initial={{y:-400, opacity: 0}} animate={{y: 0, opacity: 1}} className="stack">
                             <p>Tech Stack: </p>
                                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="html5"/>
                                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="css3"/>
@@ -25,7 +29,7 @@ function Landing () {
                                 <img src="https://www.adobe.com/content/dam/cc/us/en/products/coldfusion/coldfusion-builder/home/cf_logo_svg.svg" alt="Coldfusion" className="coldfusion"/>
                                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="java"/>
                                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scala/scala-original.svg" alt="scala"/>
-                        </div>
+                        </motion.div>
                     </div>
                 </div>
             </div>

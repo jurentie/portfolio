@@ -13,7 +13,7 @@ function About () {
             <div id="about" className="About">
                 <div className="container">
                     <div className="content">
-                        <h1>About Me</h1>
+                        <h1>About Me.</h1>
                         {width < 993 && (
                             <div className="headshot">
                                 <img src={headshot} alt="headshot"></img>

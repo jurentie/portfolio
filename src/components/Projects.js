@@ -8,7 +8,7 @@ function Projects()  {
     return (
         <div id="projects" className="Projects">
             <div className="container">
-                <h1>Projects</h1>
+                <h1>Projects.</h1>
                 <br/><br/>
                 {projects.map((project, id) => {
                     return <Card 
