@@ -6,8 +6,6 @@ function ScrollBar () {
 
     const { scrollYProgress } = useScroll();
 
-    console.log(scrollYProgress)
-
     return (
         <>
             <motion.div 

@@ -1,14 +1,27 @@
 import './About.css'
-import React from 'react'
+import React, {useEffect, useRef } from 'react'
 import { Spotify } from 'react-spotify-embed'
-import { motion } from 'framer-motion'
+import { motion, useInView } from 'framer-motion'
 
 import useWindowDimensions from './utility/UseWindowDimensions'
 
 import headshot from '../images/headshot_2.png'
 
 function About () {
-    const { width} = useWindowDimensions();
+    const { width} = useWindowDimensions()
+    const ref = useRef(null)
+    const isInView = useInView(ref)
+
+    useEffect(() => {
+
+        if(isInView){
+            document.getElementById("about-button").style.color = "springgreen"
+            document.getElementById("projects-button").style.color = "#FFFCEA"
+            document.getElementById("contact-button").style.color = "#FFFCEA"
+        }else{
+            document.getElementById("about-button").style.color = "#FFFCEA"
+        }
+    }, [isInView])
 
     return (
         // <AnimatedPage>
@@ -45,7 +58,7 @@ function About () {
                                 I'm passionate about bringing that energy into every project I undertake.
                             </p>
                             </motion.div>
-                            <br />
+                            <br ref={ref} />
                             <div className="experience">
                                 <motion.h2 transition={{delay: 1, duration:1}} initial={{y:50, opacity: 0}} whileInView={{y: 0, opacity: 1}} viewport={{ once: true }}>Experience</motion.h2>
                                 <motion.div transition={{delay: .5, duration: 1}} initial={{opacity:0}} whileInView={{opacity: 1}} viewport={{ once: true }}> 

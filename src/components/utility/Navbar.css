@@ -60,10 +60,6 @@
     font-weight:400;
 }
 
-.menuItem:hover {
-    border-bottom: 1px solid;
-}
-
 .toggle_btn {
     cursor: pointer;
 }

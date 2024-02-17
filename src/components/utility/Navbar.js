@@ -23,27 +23,38 @@ function Navbar() {
     return (
         <div className="nav">
             <motion.div transition={{delay: 2, duration: 1}} initial={{x: -1000 , opacity: 0 }} animate={{x: 0, opacity: 1}} className="Navbar">
-                <motion.div transition={{delay: 3, duration: 1}} initial={{opacity: 0 }} animate={{opacity: 1}} className="left">
-                        <a href="#landing"><img className="logo" src={logo} alt="logo"></img></a>
+                <motion.div 
+                    transition={{delay: 3, duration: 1}} 
+                    initial={{opacity: 0 }} 
+                    animate={{opacity: 1}} 
+                    className="left"
+                >
+                        <motion.a 
+                            whileHover={{scale: 1.2}} 
+                            whileTap={{scale: 0.9}}
+                            href="#landing"
+                        >
+                            <img className="logo" src={logo} alt="logo"></img>
+                        </motion.a>
                 </motion.div>
-                <motion.div transition={{delay: 3, duration: 1}} initial={{opacity: 0 }} animate={{opacity: 1}} className="right">
+                <motion.div initial={{opacity: 0 }} animate={{opacity: 1, transition:{delay: 3, duration: 1}}} className="right">
                     {width > 992 && (
                         <>
-                        <div className="menuItem">
-                            <a className="navLink" href="#about">
+                        <motion.div whileHover={{scale:1.1}} whileTap={{scale: 0.9}} className="menuItem">
+                            <a id="about-button" className="navLink" href="#about">
                                 About
                             </a>
-                        </div>
-                        <div className="menuItem">
-                            <a className="navLink" href="#projects">
+                        </motion.div>
+                        <motion.div whileHover={{scale:1.1}} whileTap={{scale: 0.9}} className="menuItem">
+                            <a id="projects-button" className="navLink" href="#projects">
                                 Projects
                             </a>
-                        </div>
-                        <div className="menuItem">
-                            <a className="navLink"  href="#contact">
+                        </motion.div>
+                        <motion.div whileHover={{scale:1.1}} whileTap={{scale: 0.9}} className="menuItem">
+                            <a id="contact-button" className="navLink"  href="#contact">
                                 Contact
                             </a>
-                        </div>
+                        </motion.div>
                         </>
                     )}
                     {width < 992 && (

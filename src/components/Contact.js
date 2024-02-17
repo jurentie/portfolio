@@ -1,6 +1,6 @@
 import './Contact.css'
-import React from 'react'
-import { motion } from 'framer-motion'
+import React, {useEffect, useRef} from 'react'
+import { motion, useInView } from 'framer-motion'
 
 import { ContactForm } from './utility/ContactForm'
 
@@ -9,12 +9,23 @@ import linkedIn from '../images/linkedin_logo.png'
 import copyright from '../images/copyright_logo.png'
 
 function Contact() {
+    const ref = useRef(null)
+    const isInView = useInView(ref)
+
+    useEffect(() => {
+        if(isInView){
+            document.getElementById("contact-button").style.color = "springgreen"
+            document.getElementById("projects-button").style.color = "#FFFCEA"
+            document.getElementById("about-button").style.color = "#FFFCEA"
+        }
+    }, [isInView]) 
+
     return (
         <div id="contact" className="Contact">
             <div className='container'>
                 <motion.h1 transition={{delay: 1, duration:1}} initial={{y:150, opacity: 0}} whileInView={{y: 0, opacity: 1}} viewport={{ once: true }}>Contact.</motion.h1>
                 <motion.div transition={{delay: .5, duration: 1}} initial={{opacity:0}} whileInView={{opacity: 1}} viewport={{ once: true }}>Get in touch or send me an email directly at <b>jurentie@gmail.com</b></motion.div>
-                <br/>
+                <br ref={ref}/>
                 <motion.div transition={{delay: .5, duration: 1}} initial={{opacity:0}} whileInView={{opacity: 1}} viewport={{ once: true }}>
                     <ContactForm />
                 </motion.div>
