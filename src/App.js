@@ -4,6 +4,7 @@ import './App.css'
 
 import Navbar from './components/utility/Navbar'
 import ScrollBar from './components/utility/ScrollBar'
+import Falcon from './components/utility/Falcon'
 import Landing from './components/Landing'
 import About from './components/About'
 import Projects from './components/Projects'
@@ -15,6 +16,7 @@ function App() {
 
   return (
       <>
+        <Falcon />
         <Navbar />
         <ScrollBar />
         <Landing />
