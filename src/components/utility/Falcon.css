@@ -1,5 +1,125 @@
+.Falcon {
+    position: fixed;
+    z-index: 3;
+}
+
 .falcon {
-    position: absolute;
+    position: fixed;
     width:100px;
     margin-top: 100px;
+    margin-left: 50px;
+    cursor: pointer;
+    z-index:3;
+}
+
+.han {
+    position: fixed;
+    width:80px;
+    margin-top: 170px;
+    margin-left: 50px;
+}
+
+.Falcon .text-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50px;
+}
+
+.Falcon .click {
+    font-size: .7rem;
+    margin-top: 175px;
+    margin-left: 250px;
+    text-align: center;
+}
+
+@media (max-width:1600px) {
+    .falcon {
+        margin-left: 40px;
+    }
+
+    .han {
+        margin-left: 30px
+    }
+
+    .Falcon .click {
+        margin-left: 200px;
+    }
+}
+
+@media (max-width:1500px) {
+    .falcon {
+        margin-left: 40px;
+    }
+
+    .han {
+        margin-left: 20px
+    }
+
+    .Falcon .click {
+        margin-left: 190px;
+    }
+}
+
+@media (max-width:1400px) {
+    .falcon {
+        margin-left: 40px;
+    }
+
+    .han {
+        margin-left: 15px
+    }
+
+    .Falcon .click {
+        margin-left: 170px;
+    }
+}
+
+@media (max-width:1300px) {
+    .falcon  {
+        margin-left: 30px;
+    }
+
+    .han {
+        margin-left: 5px
+    }
+
+    .Falcon .click {
+        margin-left: 150px;
+    }
+}
+
+@media (max-width:1200px) {
+    .falcon {
+        margin-left: 20px;
+    }
+
+    .han {
+        margin-left: 0px
+    }
+
+    .Falcon .click {
+        margin-left: 130px;
+    }
+}
+
+@media (max-width:1100px) {
+    .falcon {
+        margin-left: 10px;
+    }
+
+    .han {
+        width: 70px;
+        margin-left: 0px
+    }
+
+    .Falcon .click {
+        margin-left: 115px;
+    }
+}
+
+@media (max-width:992px) {
+    .Falcon {
+        display:none;
+    }
 }
