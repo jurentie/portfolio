@@ -65,7 +65,7 @@
 }
 
 .dropdown {
-    padding-top: 55px;
+    padding-top: 75px;
     width: 100%;
     display: flex;
     justify-content: flex-end;
@@ -102,6 +102,7 @@
     .dropdown {
         display:flex;
         justify-content: center;
+        padding-top: 55px;
     }
 
     .dropdown .menu {
