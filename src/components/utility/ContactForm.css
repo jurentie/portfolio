@@ -41,3 +41,31 @@
 .ContactForm label {
     margin-bottom: 10px;
 }
+
+.warning-message {
+    text-align: center;
+    color:yellow;
+    padding:0;
+    margin:0;
+    position: absolute;
+}
+
+.success-message {
+    text-align: center;
+    color:springgreen;
+    padding:0;
+    margin:0;
+    position: absolute;
+    padding-top:20px;
+}
+
+.thumbs-up{
+    width:50px;
+}
+
+.textdiv {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
