@@ -9,9 +9,9 @@ function Landing () {
         // <AnimatedPage>
             <div id="landing" className="Landing">
                 <div className="content">
-                    <div  className="profile-picture">
-                        <motion.img transition={{delay: 2, duration: .5, ease: "backInOut"}} initial={{ scale: 0 }} animate={{scale:1}} src={headshot} alt="headshot"></motion.img>
-                    </div>
+                    <motion.div  transition={{delay: 2, duration: .5, ease: "backInOut"}} initial={{ scale: 0 }} animate={{scale:1}}  className="profile-picture">
+                        <motion.img  transition={{duration: .4}} whileHover={{scale:1.05}} whileTap={{rotateY: "360deg"}} src={headshot} alt="headshot" style={{cursor:"pointer"}}></motion.img>
+                    </motion.div>
                     <div className="bio">
                         <div className="text">
                             <MotionConfig transition={{delay: 3, duration:1}} >

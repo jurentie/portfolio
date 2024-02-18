@@ -80,8 +80,15 @@ function About () {
 
                     </div>
                     {width > 992 && (
-                        <motion.div transition={{delay: .5, duration: 3}} initial={{opacity:0}} whileInView={{opacity: 1}} viewport={{ once: true }} className="headshot">
-                            <img src={headshot} alt="headshot"></img>
+                        <motion.div 
+                            transition={{delay: .5, duration: 3}}
+                            initial={{opacity:0}} 
+                            whileInView={{opacity: 1}} 
+                            viewport={{ once: true }} 
+                            className="headshot"
+                            // whileHover={{scale: 1.02}}
+                        >
+                            <motion.img transition={{duration: .4}} whileHover={{scale:1.05}} whileTap={{rotateY: "360deg"}} src={headshot} alt="headshot" style={{cursor:"pointer"}}></motion.img>
                         </motion.div>
                     )}         
                 </div>
