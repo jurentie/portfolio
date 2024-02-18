@@ -1,9 +1,10 @@
 import './Contact.css'
+
 import React, {useEffect, useRef} from 'react'
 import { motion, useInView } from 'framer-motion'
 
-import { ContactForm } from './utility/ContactForm'
 import NavButtonSelector from './utility/NavButtonSelector'
+import { ContactForm } from './utility/ContactForm'
 
 import github from '../images/github_logo.png'
 import linkedIn from '../images/linkedin_logo.png'

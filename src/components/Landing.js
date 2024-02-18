@@ -1,4 +1,5 @@
 import './Landing.css'
+
 import React from 'react'
 import { MotionConfig, motion } from 'framer-motion'
 

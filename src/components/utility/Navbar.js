@@ -1,10 +1,11 @@
 import './Navbar.css'
+
 import React, { useEffect, useState } from 'react'
 import { motion } from 'framer-motion';
 
-import logo from '../../images/JR-logo-light.png'
-
 import useWindowDimensions from './UseWindowDimensions';
+
+import logo from '../../images/JR-logo-light.png'
 
 function Navbar() {
     const [dropdwonMenu, setDropdownMenu] = useState(false);

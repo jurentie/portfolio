@@ -1,8 +1,9 @@
 import './Projects.css'
+
 import React, {useEffect, useRef} from 'react'
-import Card from './utility/Card'
 import {motion, useInView} from 'framer-motion'
 
+import Card from './utility/Card'
 import NavButtonSelector from './utility/NavButtonSelector'
 
 import projects from '../data/projects.json'

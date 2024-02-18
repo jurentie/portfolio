@@ -1,4 +1,5 @@
 import './ContactForm.css'
+
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import {motion, useAnimationControls} from 'framer-motion'
@@ -94,7 +95,7 @@ export const ContactForm = () => {
                 <label>Message</label>
                 <motion.textarea whileHover={{scale:1.05}} name="message" onChange={handleMessageChange} value={message} />
                 <br/>
-                <motion.input whileHover={{scale:1.05}} whileTap={{scale:0.9}}type="submit" value="Send" />
+                <motion.input whileHover={{scale:1.05}} whileTap={{scale:0.9}} type="submit" value="Send" />
             </form>
             <motion.img 
                 transition={{duration: 5 , ease: "backIn", times:[0, .5, 1]}}

@@ -1,10 +1,11 @@
 import './About.css'
+
 import React, {useEffect, useRef } from 'react'
 import { Spotify } from 'react-spotify-embed'
 import { motion, useInView } from 'framer-motion'
 
-import useWindowDimensions from './utility/UseWindowDimensions'
 import NavButtonSelector from './utility/NavButtonSelector'
+import useWindowDimensions from './utility/UseWindowDimensions'
 
 import headshot from '../images/headshot_2.png'
 
