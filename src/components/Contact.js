@@ -31,8 +31,8 @@ function Contact() {
             </div>
             <motion.div transition={{delay: 1, duration:1, ease:"backInOut"}} initial={{y:-200, opacity: 0}} whileInView={{y: 0, opacity: 1}} viewport={{ once: true }} className="footer">
                 <div className="icons">
-                    <a href="https://github.com/jurentie" target="_"><img src={github} alt="github"></img></a>
-                    <a href="https://www.linkedin.com/in/jurentie/" target="_"><img src={linkedIn} alt="linkedin"></img></a>
+                    <a href="https://github.com/jurentie" target="_"><motion.img whileHover={{scale:1.2}} whileTap={{scale:0.9}} src={github} alt="github"></motion.img></a>
+                    <a href="https://www.linkedin.com/in/jurentie/" target="_"><motion.img whileHover={{scale:1.2}} whileTap={{scale:0.9}} src={linkedIn} alt="linkedin"></motion.img></a>
                 </div>
                 <div className="copyright">
                     <img src={copyright} alt="copyright"></img>/2024
