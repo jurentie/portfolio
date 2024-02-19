@@ -1,3 +1,12 @@
+.card-container {
+    width:100%;
+}
+
+.card-container .desktop {
+    display:flex;
+    justify-content: center;
+}
+
 .Card {
     display: flex;
     flex-direction: row;
@@ -14,7 +23,7 @@
 }
 
 .Card .image {
-    width: 50%;
+    /* width: 50%; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,16 +76,12 @@
         margin-top:10px;
     }
 
-    .desktop {
-        display:none;
+    .card-container .desktop {
+        display: none;
     }
 
     .Card img {
-        max-width: 135%;
-    }
-
-    .mobile .image a {
-        margin-left: -50%;
+        max-width: 100%;
     }
 
     .mobile {

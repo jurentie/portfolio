@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 
 function Card ({imgSource, title, description, link, index}) {
     return (
-        <motion.div transition={{delay: .5, duration:1, ease:"backInOut"}} initial={{x:-300, opacity: 0}} whileInView={{x: 0, opacity: 1}} viewport={{ once: true }}>
+        <motion.div transition={{delay: .5, duration:1, ease:"backInOut"}} initial={{x:-300, opacity: 0}} whileInView={{x: 0, opacity: 1}} viewport={{ once: true }} className="card-container">
             <div className="desktop">
                 <div className="Card">
                     {index % 2 === 0 && (
