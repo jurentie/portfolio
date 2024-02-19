@@ -68,9 +68,9 @@ function Navbar() {
             { dropdwonMenu && width < 992 && (
                 <div className="dropdown">
                     <div className="menu">
-                        <a className="navLink"  href="#about">About</a>
-                        <a className="navLink" href="#projects">Projects</a>
-                        <a className="navLink"  href="#contact">Contact</a>
+                        <motion.div whileHover={{scale:1.1}} whileTap={{scale: 0.9}}><a id="about-button-mobile" className="navLink" href="#about">About</a></motion.div>
+                        <motion.div whileHover={{scale:1.1}} whileTap={{scale: 0.9}}><a id="projects-button-mobile" className="navLink" href="#projects">Projects</a></motion.div>
+                        <motion.div whileHover={{scale:1.1}} whileTap={{scale: 0.9}}><a id="contact-button-mobile" className="navLink"  href="#contact">Contact</a></motion.div>
                     </div>
                 </div>
             )}

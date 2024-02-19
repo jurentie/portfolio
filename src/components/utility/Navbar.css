@@ -87,9 +87,9 @@
     z-index: 1;
 }
 
-.dropdown .menu a {
-    padding-bottom: 10px;
-    padding-top:10px;
+.dropdown .menu div {
+    padding-bottom: 8px;
+    padding-top:8px;
     font-size: 1.3rem;
 }
 
