@@ -42,17 +42,17 @@ function Navbar() {
                     {width > 992 && (
                         <>
                         <motion.div whileHover={{scale:1.1}} whileTap={{scale: 0.9}} className="menuItem">
-                            <a id="about-button" className="navLink" href="#about">
+                            <a id="about-button" className="navLink" href="#about" rel="m_PageScroll2id">
                                 About
                             </a>
                         </motion.div>
                         <motion.div whileHover={{scale:1.1}} whileTap={{scale: 0.9}} className="menuItem">
-                            <a id="projects-button" className="navLink" href="#projects">
+                            <a id="projects-button" className="navLink" href="#projects" rel="m_PageScroll2id">
                                 Projects
                             </a>
                         </motion.div>
                         <motion.div whileHover={{scale:1.1}} whileTap={{scale: 0.9}} className="menuItem">
-                            <a id="contact-button" className="navLink"  href="#contact">
+                            <a id="contact-button" className="navLink"  href="#contact" rel="m_PageScroll2id">
                                 Contact
                             </a>
                         </motion.div>

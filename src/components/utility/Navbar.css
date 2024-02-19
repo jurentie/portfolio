@@ -93,6 +93,10 @@
     font-size: 1.3rem;
 }
 
+/* a[rel="m_PageScroll2id"] {
+  offset: -500px;
+} */
+
 @media (max-width: 700px) {
 
     .Navbar {

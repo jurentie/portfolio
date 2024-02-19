@@ -22,7 +22,7 @@
 
 .Card img {
     width: 400px;
-    border-radius: 4%;
+    border-radius: 20px;
     max-width:200%;
 }
 
@@ -42,6 +42,11 @@
     cursor: pointer;
     padding: 5px 10px;
     border-radius: 2px;
+}
+
+.Card button:hover {
+    font-weight: bold;
+    font-size: 1rem;
 }
 
 @media (max-width:992px) {

@@ -54,6 +54,20 @@
     display: flex;
 }
 
+.DGMC a{
+    color: #FFFCEA;
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-decoration: underline;
+}
+
+.DGMC a:hover {
+    color: transparent;
+    transition: 500ms ease;
+    cursor: pointer;
+}
+
 @media (max-width: 992px) {
     .About .container {
         flex-direction: column;

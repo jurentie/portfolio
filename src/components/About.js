@@ -53,7 +53,7 @@ function About () {
                                 code I write.
                             </p>
                             <p>
-                                When I'm not immersed in code, you can find me singing in the Denver Gay Men's Chorus, experimenting with new recipes 
+                                When I'm not immersed in code, you can find me singing in the <span className="DGMC"><a href="https://denverchoruses.org/dgmc/" target="_">Denver Gay Men's Chorus</a></span>, experimenting with new recipes 
                                 in the kitchen, or crafting something new to wear at my sewing machine. I believe that creativity knows no bounds, and 
                                 I'm passionate about bringing that energy into every project I undertake.
                             </p>
