@@ -79,4 +79,8 @@
         margin-left: -50%;
     }
 
+    .mobile {
+        display:block;
+    }
+
 }
