@@ -58,14 +58,14 @@ function About () {
                                 I'm passionate about bringing that energy into every project I undertake.
                             </p>
                             </motion.div>
-                            <br ref={ref} />
+                            <br/>
                             <div className="experience">
                                 <motion.h2 transition={{delay: 1, duration:1}} initial={{y:50, opacity: 0}} whileInView={{y: 0, opacity: 1}} viewport={{ once: true }}>Experience</motion.h2>
                                 <motion.div transition={{delay: .5, duration: 1}} initial={{opacity:0}} whileInView={{opacity: 1}} viewport={{ once: true }}> 
                                     <p>- Bachelors degree in Computer Science</p>
                                     <p>- 7 years experience in full-stack development</p>
                                     <br/>
-                                    <p>Within those 7 years, I have:</p>
+                                    <p ref={ref} >Within those 7 years, I have:</p>
                                     <br/>
                                     <p>-2 years working with Python, Java, .Net, JavaScript, HTML, and CSS developing open source water data proessing tools and visualizations</p>
                                     <p>-2 years working with Java and Springboot Framework developing API microservices</p>
