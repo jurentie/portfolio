@@ -58,10 +58,6 @@
     color:springgreen;
 }
 
-#name:hover{
-    cursor:pointer;
-}
-
 .Landing .description {
     padding-left: 4px;
 }
