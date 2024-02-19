@@ -19,10 +19,10 @@ function Projects()  {
     }, [isInView])
 
     return (
-        <div className="Projects">
+        <div id="projects" className="Projects">
             <div className="container">
-                <motion.h1 ref={ref} id="projects" transition={{delay: 1, duration:1}} initial={{y:150, opacity: 0}} whileInView={{y: 0, opacity: 1}} viewport={{ once: true }}>Projects.</motion.h1>
-                <br/><br/>
+                <motion.h1 transition={{delay: 1, duration:1}} initial={{y:150, opacity: 0}} whileInView={{y: 0, opacity: 1}} viewport={{ once: true }}>Projects.</motion.h1>
+                <br ref={ref} /><br/>
                 {projects.map((project, i) => {
                     return <Card 
                                 key={i}
