@@ -20,12 +20,12 @@ function Landing () {
                                 <motion.p initial={{y:-400, opacity: 0}} animate={{y: 0, opacity: 1}} className="hi">Hi, </motion.p>
                                 <motion.p initial={{y:-400, opacity: 0}} animate={{y: 0, opacity: 1}} className="name-sentence">My name is</motion.p>
                             </MotionConfig>
-                            <motion.p transition={{duration:2}} initial={{opacity: 0}} animate={{opacity: 1}} id="name">Justin Rentie</motion.p>
+                            <motion.p transition={{duration:2}} initial={{opacity: 0}} animate={{opacity: 1}} whileHover={{scale:.95, transition:{duration: 1, repeat:Infinity, repeatType:"reverse"}}} id="name">Justin Rentie</motion.p>
                             <motion.p transition={{delay: 3, duration:1}} initial={{y:-400, opacity: 0}} animate={{y: 0, opacity: 1}} className="description">I'm a full-stack developer with a passion for front-end design. </motion.p>
                         </div>
                         <motion.div transition={{delay: 3, duration:1}} initial={{y:-400, opacity: 0}} animate={{y: 0, opacity: 1}} className="stack">
                             <p>Tech Stack: </p>
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="html5"/>
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="html5" title="html"/>
                                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="css3"/>
                                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="javaScript"/>
                                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="react"/>
