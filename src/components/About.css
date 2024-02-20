@@ -68,6 +68,21 @@
     cursor: pointer;
 }
 
+.About button {
+    background-color: springgreen;
+    border: none;
+    text-align: center;
+    color: black;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 2px;
+}
+
+.About button:hover {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
 @media (max-width: 992px) {
     .About .container {
         flex-direction: column;

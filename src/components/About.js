@@ -8,6 +8,7 @@ import NavButtonSelector from './utility/NavButtonSelector'
 import useWindowDimensions from './utility/UseWindowDimensions'
 
 import headshot from '../images/headshot_2.png'
+import resume from '../documents/JustinRentie-Resume.pdf'
 
 function About () {
     const { width} = useWindowDimensions()
@@ -76,7 +77,21 @@ function About () {
                                 <motion.div transition={{delay: .5, duration: 1}} initial={{opacity:0}} whileInView={{opacity: 1}} viewport={{ once: true }}> 
                                     <p>Java / Python / Scala / HTML / CSS / JavaScript / React / Coldfusion / Springboot / MySQL / Postgres </p>
                                 </motion.div>
-                                <br/>
+                                <br/><br/>
+                                <motion.a
+                                    transition={{delay: .5, duration: 1}}
+                                    initial={{opacity:0}}
+                                    whileInView={{opacity:1}}
+                                    viewport={{ once: true }}
+                                    href={resume} 
+                                    target="_"
+                                >
+                                <motion.button 
+                                    transition={{duration: 1, repeat: Infinity, repeatType:"reverse"}}
+                                    initial={{scale:0.95}}
+                                    animate={{scale:1.1}}
+                                >Resume</motion.button>
+                                </motion.a>
                             </div>
 
                     </div>
