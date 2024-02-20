@@ -11,7 +11,7 @@ function Card ({imgSource, title, description, link, index}) {
                     {index % 2 === 0 && (
                         <div className="content">
                             <h2>{title}</h2>
-                            <p>{description}</p>
+                            <p className="description">{description}</p>
                             <motion.a 
                                 transition={{duration: 1, repeat:Infinity, repeatType:"reverse"}}
                                 initial={{scale:0.95}}
@@ -38,7 +38,7 @@ function Card ({imgSource, title, description, link, index}) {
                     {index % 2 !== 0 && (
                         <div className="content">
                             <h2>{title}</h2>
-                            <p>{description}</p>
+                            <p className="description">{description}</p>
                             <motion.a 
                                 transition={{duration: 1, repeat:Infinity, repeatType:"reverse"}}
                                 initial={{scale:0.95}}

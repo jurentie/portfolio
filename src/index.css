@@ -22,10 +22,6 @@ html{
   scroll-padding-top: 100px;
 }
 
-/* a[rel="m_PageScroll2id"] {
-  offset: -500px;
-} */
-
 /* @media only screen and (max-device-width: 480px) {
   html {
     height: calc(100% + 60px);
