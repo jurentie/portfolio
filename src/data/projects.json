@@ -4,11 +4,5 @@
         "title": "Marvel Character Database/Search",
         "description": "I developed this website as a side project aimed at honing my skills in crafting web applications that interact seamlessly with APIs. Leveraging the Marvel API, this platform dynamically retrieves and presents data to users, seamlessly integrating a search feature designed to locate specific Marvel superheroes.",
         "link": "https://jurentie.github.io/marvel"
-    },
-    {
-        "img": "/images/projects/project1.png",
-        "title": "Project 2",
-        "description": "This is another description",
-        "link": "/portfolio"
     }
 ]

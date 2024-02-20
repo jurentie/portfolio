@@ -33,6 +33,7 @@ function Projects()  {
                                 index={i}
                             />
                 })}
+                <motion.p transition={{delay: 2, duration:1}} initial={{opacity: 0}} whileInView={{opacity: 1}} viewport={{ once: true }}>more to come...</motion.p>
             </div>
         </div>
     )
