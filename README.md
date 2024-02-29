@@ -5,3 +5,6 @@ to advertising who I am and what I can do for potential employers, or people loo
 website.
 
 To view the live site, hosted by github pages, head to [jurentie.github.io/portfolio](https://jurentie.github.io/portfolio)
+
+I built this website using JavaScript/React, as well as components provided by the
+[framer-motion](https://www.framer.com/motion/) library
