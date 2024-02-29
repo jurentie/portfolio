@@ -4,5 +4,11 @@
         "title": "Marvel Character Database/Search",
         "description": "I developed this website as a side project aimed at honing my skills in crafting web applications that interact seamlessly with APIs. Leveraging the Marvel API, this platform dynamically retrieves and presents data to users, seamlessly integrating a search feature designed to locate specific Marvel superheroes.",
         "link": "https://jurentie.github.io/marvel"
+    },
+    {
+        "img": "/images/projects/javascript30.png",
+        "title": "JavaScript 30",
+        "description": "I undertook a 30-day JavaScript challenge as part of my initiative to enhance proficiency in vanilla JavaScript. This endeavor was aimed at deepening my understanding of core JavaScript concepts and refining my skill set, with the overarching goal of advancing my skills as a frontend developer. (In Progress)",
+        "link": "https://jurentie.github.io/javascript_30"
     }
 ]
