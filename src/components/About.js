@@ -64,13 +64,14 @@ function About () {
                                 <motion.h2 transition={{delay: 1, duration:1}} initial={{y:50, opacity: 0}} whileInView={{y: 0, opacity: 1}} viewport={{ once: true }}>Experience</motion.h2>
                                 <motion.div transition={{delay: .5, duration: 1}} initial={{opacity:0}} whileInView={{opacity: 1}} viewport={{ once: true }}> 
                                     <p>- Bachelors degree in Computer Science</p>
-                                    <p>- 7 years experience in full-stack development</p>
+                                    <p>- 8 years experience in full-stack development</p>
                                     <br/>
                                     <p>Within those 7 years, I have:</p>
                                     <br/>
                                     <p>-2 years working with Python, Java, .Net, JavaScript, HTML, and CSS developing open source water data proessing tools and visualizations</p>
-                                    <p>-2 years working with Java and Springboot Framework developing API microservices</p>
+                                    <p>-2 years working with Java and Spring Boot Framework developing API microservices</p>
                                     <p>-3 years working with Java, Scala, JavaScript, React, and Coldfusion developing API microservices and various front-end UIs</p>
+                                    <p>-1 year working with Java and Spring Boot development of APIs within legacy WebSphere Liberty Servers</p>
                                     <br /><br />
                                 </motion.div>
                                 <motion.h2 transition={{delay: 1, duration:1}} initial={{y:50, opacity: 0}} whileInView={{y: 0, opacity: 1}} viewport={{ once: true }}>Skills</motion.h2>
