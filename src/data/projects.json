@@ -10,5 +10,11 @@
         "title": "JavaScript 30",
         "description": "I undertook a 30-day JavaScript challenge as part of my initiative to enhance proficiency in vanilla JavaScript. This endeavor was aimed at deepening my understanding of core JavaScript concepts and refining my skill set, with the overarching goal of advancing my skills as a frontend developer. (In Progress)",
         "link": "https://jurentie.github.io/javascript_30"
+    },
+    {
+        "img": "/images/projects/udemy-spring-boot-certificate.jpg",
+        "title": "Master Spring Boot 3 & Spring Framework 6 with Java",
+        "description": "To deepen my understanding of the Spring Boot framework, I completed a comprehensive Udemy course that covered key topics like Inversion of Control, auto-configuration, Spring Beans, and JPA. The course also strengthened my experience with Gradle, Maven, and backend integration with React. Additionally, it introduced modern deployment practices using Docker, MySQL, Kubernetes, and Amazon Web Services.",
+        "link": "https://www.udemy.com/share/103Iti3@JldJ7E0GXEi8rOT2-uLYRdMPEIgIIUh2wIxrlZJk-rWELNv9pYvMaVwC4HHqPft0/"
     }
 ]
