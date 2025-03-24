@@ -36,7 +36,7 @@ function Contact() {
                     <a href="https://www.linkedin.com/in/jurentie/" target="_"><motion.img whileHover={{scale:1.2}} whileTap={{scale:0.9}} src={linkedIn} alt="linkedin"></motion.img></a>
                 </div>
                 <div className="copyright">
-                    <img src={copyright} alt="copyright"></img>/2024
+                    <img src={copyright} alt="copyright"></img>/2025
                 </div>
             </motion.div>
         </div>
